@@ -16,6 +16,9 @@ gulp.task('copy', function() {
 
     gulp.src(['node_modules/jquery.easing/*.js'])
         .pipe(gulp.dest('vendor/jquery-easing'))
+
+    gulp.src(['node_modules/holderjs/*.js'])
+        .pipe(gulp.dest('vendor/holderjs'))
 })
 
 // Default task
